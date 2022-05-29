@@ -1,0 +1,7 @@
+import numpy as np
+x = np.array(['python', 'PHP', 'java', 'C++'], dtype=np.str)
+print("Original Array:")
+print(x)
+capitalized_case = np.char.capitalize(x)
+lowered_case = np.char.lower(x)
+uppered_case = np.char.upper(x)
